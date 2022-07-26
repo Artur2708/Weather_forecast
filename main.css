@@ -1,0 +1,100 @@
+img{width:60%;}
+table
+{
+    border: 1px solid black;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+}
+tr,td
+{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#left
+{
+    width: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#DIV,#table_now
+{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#table_now td
+{
+    text-align:left;
+    table-layout:fixed;
+}
+
+#lupa
+{ 
+    
+    width: 30px;
+    
+}
+#table_now img
+{
+    width:200px;
+}
+
+#temp
+{
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-indent: 30%;
+    width: 40%;
+}
+
+body{background-color: rgba(179, 177, 177, 0.822);}
+
+@media (min-width: 300px) and (max-width: 800px)
+{
+    #table_now
+    {
+        font-size: 18px;
+    }
+    #temp
+    {
+        font-size: 22px;
+    }
+    #table_now img
+    {
+        width:100px;
+    }
+
+}
+
+#error
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#modal 
+{
+    background-color: #1af3ab88;
+    font-size: 24px;
+    font-weight: bold;
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    top: -10px;
+    left: 500px;
+    transition: all 1000ms;
+    text-align: center;
+}
+
+.nodispl 
+{
+    transform: scaleY(0);
+}
+
+.rollup 
+{
+    transform: scaleY(1);
+}
